@@ -1,0 +1,51 @@
+/* =================================
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 60px;
+}
+
+/*=================================
+  Media Queries
+=================================== */
+@media screen and (min-width: 320px) {
+  .container,
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items:baseline;
+  }
+  .col {
+    flex-direction: column;
+    flex: 1;
+  }
+  .name {
+    display: flex;
+    margin-right: auto;
+  }
+  .text {
+    flex: 1 1 300px;
+  }
+  .img-profile {
+    flex: 1 1 300px;
+    max-width: 100%;
+    height: auto;
+  }
+
+}
