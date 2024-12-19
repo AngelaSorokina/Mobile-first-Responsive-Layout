@@ -4,20 +4,47 @@
 * {
   box-sizing: border-box;
 }
+
 body {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
   font-family: "Inter", serif;
   line-height: 1.5;
   color: #4A4A4A;
-  max-width: 90%;
   background-color: #FAFAFA;
 }
+
 h1, h2 {
   font-family: "Poppins", serif;
   font-weight: 700;
   line-height: 1.25;
 }
+
 .Heading {
   margin: 0 auto 0 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items:flex-end;
+}
+
+.Home {
+  padding: 20px;
+  background-color: #FFFFFF;
+  margin: 0 0 60px 0;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items:flex-end;
+  padding: 0px;
 }
 
 ul, a {
@@ -29,37 +56,32 @@ ul, a {
   color: #4A4A4A;
   margin:0;
 }
+
 ul, a:hover {
 color: #717171;
 }
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 60px;
-  align-items:flex-end;
-  margin:0 0 60px 0;
-  background-color: #FFFFFF;
-  padding: 20px;
-}
-.nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 60px;
-  align-items:flex-end;
-  margin: 0px;
-  padding: 0px;
-}
+
 .container2 {
   align-items:flex-start;
   background-color: transparent;
 }
+
 .container3 {
+  gap: 60px;
+  justify-content: center;
+}
+
+ .container4 {
+  gap:20px;
+  padding: 0 0 60px 0;
+}
+
+.container5 {
   align-items:center;
   background-color: transparent;
   padding: 0px;
 }
+
 img {
 	max-width: 100%;
   height: auto;
@@ -71,22 +93,33 @@ img {
 @media screen and (min-width: 1024px) {
   body {
     margin:60px auto 60px auto;
+    gap: 60px;
   }
-  .text {
+
+  .p2 {
     font-size: 18px;
     font-weight: regular;
     flex: 1 1 300px;
   }
+  
+  p {
+    font-size: 16px;
+    font-weight: regular;
+  }
+
   h1 {
     font-size: 25px;
   }
+
   h2 {
     font-size: 20px;
     text-align: center;
   }
+
   h3 {
     font-size: 18px;
   }
+
   .cards {
     display: flex;
     flex-direction: row;
@@ -94,19 +127,27 @@ img {
     flex-wrap: wrap;
     align-items:baseline;
   }
+
   .col {
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 288px;
   }
+
   .name {
     display: flex;
     margin-right: auto;
   }
 
   .img-profile {
-    flex: 1 1 300px;
+    flex: 1 1 365px;
     max-width: 100%;
     height: auto;
+  }
+
+  #Portfolio {
+  margin:0 0 60px 0;
+  padding: 60px 30px 0 30px ;
+  background-color: #FFFFFF;
   }
 
 }
