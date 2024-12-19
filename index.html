@@ -9,22 +9,25 @@
 </head>
 
 <body>
-  <header class="header">
-      <div class="container">
-        <h1 class="name"> <a href="#">Angela</a></h1>
-          <ul class="main-nav">
+  <header>
+      <div class="container container1">
+        <h1> Angela </h1>
+          <ul class="nav">
             <li class="item1 item"><a href="#">Home</a></li>
-            <li class="item2 item"><a href="#">Portfolio</a></li>
-            <li class="item3 item"><a href="#">Contact</a></li>
+            <li class="item2 item"><a href="#Portfolio">Portfolio</a></li>
+            <li class="item3 item"><a href="#Contact">Contact</a></li>
          </ul>
       </div>
-    <div class="container">
+
+    <div class="container container2">
       <p class="text">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
       <img src="images/responsive-layout-profile.png" alt="My profile photo" class="img-profile">
     </div>
   </header>
-  <main class="main">
-    <h2>Portfolio</h2>
+
+  <main class="Portfolio">
+    <section id="Portfolio">
+			<h2>Portfolio</h2>
     <div class="cards">
       <div class="col col1">
         <img src="images/portfolio-1.png" alt="Marketing Page">
@@ -41,33 +44,34 @@
         <h3> Travel App </h3>
         <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
       </div>
-			<div class="cards">
-	      <div class="col col1">
-	        <img src="images/portfolio-4.png" alt="Marketing Page">
-	        <h3> Marketing Page </h3>
-	        <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-	      </div>
-	      <div class="col col2">
-	        <img src="images/portfolio-5.png" alt="Search Page">
-	        <h3> Search Page </h3>
-	        <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-	      </div>
-	      <div class="col col3">
-	        <img src="images/portfolio-6.png" alt="Travel App">
+      <div class="col col4">
+        <img src="images/portfolio-4.png" alt="Marketing Page">
+        <h3> Marketing Page </h3>
+        <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+      </div>
+      <div class="col col5">
+        <img src="images/portfolio-5.png" alt="Search Page">
+        <h3> Search Page </h3>
+        <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+      </div>
+      <div class="col col6">
+        <img src="images/portfolio-6.png" alt="Travel App">
 	        <h3> Travel App </h3>
 	        <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+				</section>
 	      </div>
     </div>
   </main>
 </body>
 
 <footer>
+	<section id="Contact">
 	<h2>Contact</h2>
 	<p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
 	<address>
-		Phone <strong>+1(111)555-1234</strong><br>
-		E-mail <strong>email@yoursite.com</strong>
+		Phone +1(111)555-1234<br>
+		E-mail <a href="mailto:email@yoursite.com">email@yoursite.com</a>
 	</address>
+</section>
 </footer>
-
 </html>
