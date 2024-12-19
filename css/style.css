@@ -21,6 +21,11 @@ h1, h2 {
   line-height: 1.25;
 }
 
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
 .Heading {
   margin: 0 auto 0 0;
 }
@@ -30,7 +35,6 @@ h1, h2 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  align-items:flex-end;
 }
 
 .Home {
@@ -63,20 +67,19 @@ color: #717171;
 
 .container2 {
   align-items:flex-start;
-  background-color: transparent;
 }
 
 .container3 {
   gap: 60px;
   justify-content: center;
+  text-align: center;
 }
 
- .container4 {
+ .container4, .container5 {
   gap:20px;
-  padding: 0 0 60px 0;
 }
 
-.container5 {
+.container6 {
   align-items:center;
   background-color: transparent;
   padding: 0px;
@@ -101,10 +104,11 @@ img {
     font-weight: regular;
     flex: 1 1 300px;
   }
-  
+
   p {
     font-size: 16px;
     font-weight: regular;
+    margin: 0;
   }
 
   h1 {
@@ -118,6 +122,7 @@ img {
 
   h3 {
     font-size: 18px;
+    margin: 20px 0 20px 0;
   }
 
   .cards {
@@ -146,7 +151,7 @@ img {
 
   #Portfolio {
   margin:0 0 60px 0;
-  padding: 60px 30px 0 30px ;
+  padding: 60px 30px;
   background-color: #FFFFFF;
   }
 
