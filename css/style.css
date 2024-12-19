@@ -24,7 +24,7 @@ ul, a {
   margin:0;
 }
 ul, a:hover {
-color: #717171;  
+color: #717171;
 }
 img {
 	max-width: 100%;
@@ -52,9 +52,13 @@ img {
     padding: 0;
   }
   .container2 {
-    align-items:center;
+    align-items:flex-start;
   }
-
+  .text {
+    font-size: 18px;
+    font-weight: regular;
+  }
+  }
   .cards {
     display: flex;
     flex-direction: row;
