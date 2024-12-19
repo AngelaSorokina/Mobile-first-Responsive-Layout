@@ -15,8 +15,11 @@ h1, h2 {
   font-family: "Poppins", serif;
   font-weight: 700;
   line-height: 1.25;
+}
+.Heading {
   margin: 0 auto 0 0;
 }
+
 ul, a {
   text-decoration: none;
   list-style: none;
@@ -29,8 +32,7 @@ ul, a {
 ul, a:hover {
 color: #717171;
 }
-.container,
-.nav {
+.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,12 +43,22 @@ color: #717171;
   padding: 20px;
 }
 .nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items:flex-end;
   margin: 0px;
   padding: 0px;
 }
 .container2 {
   align-items:flex-start;
   background-color: transparent;
+}
+.container3 {
+  align-items:center;
+  background-color: transparent;
+  padding: 0px;
 }
 img {
 	max-width: 100%;
@@ -63,6 +75,7 @@ img {
   .text {
     font-size: 18px;
     font-weight: regular;
+    flex: 1 1 300px;
   }
   h1 {
     font-size: 25px;
@@ -70,6 +83,9 @@ img {
   h2 {
     font-size: 20px;
     text-align: center;
+  }
+  h3 {
+    font-size: 18px;
   }
   .cards {
     display: flex;
@@ -86,9 +102,7 @@ img {
     display: flex;
     margin-right: auto;
   }
-  .text {
-    flex: 1 1 300px;
-  }
+
   .img-profile {
     flex: 1 1 300px;
     max-width: 100%;
