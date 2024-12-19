@@ -80,6 +80,17 @@ color: #717171;
 }
 
 .container6 {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.container6 li {
+  padding-bottom: 16px;
+}
+.container7 {
   align-items:center;
   background-color: transparent;
   padding: 0px;
@@ -112,17 +123,17 @@ img {
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 32px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
   h3 {
     font-size: 18px;
-    margin: 20px 0 20px 0;
+    margin: 0px;
   }
 
   .cards {
@@ -134,8 +145,10 @@ img {
   }
 
   .col {
+    display: flex;
     flex-direction: column;
     flex: 1 1 288px;
+    gap:20px;
   }
 
   .name {
