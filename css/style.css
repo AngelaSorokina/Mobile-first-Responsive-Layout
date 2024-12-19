@@ -55,6 +55,20 @@ body {  /*General styles*/
   background-color: #FFFFFF;
   margin: 0 0 60px 0;
 }
+#Portfolio { /*Portfolio section*/
+margin:0 0 60px 0;
+padding: 60px 30px;
+background-color: #FFFFFF;
+}
+#Contact { /*Contact section*/
+  display: block;
+  max-width: 60%;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+#Contact * {
+  margin-bottom: 20px;
+}
 /* =================================
   Container Elements
 ==================================== */
@@ -70,6 +84,12 @@ body {  /*General styles*/
   flex-direction: column;
   flex: 1 1 288px;
   gap:20px;
+}
+
+.img-profile {/*Main block image*/
+  flex: 1 1 365px;
+  max-width: 100%;
+  height: auto;
 }
 /* =================================
   Navigation and lists
@@ -162,30 +182,6 @@ hr {
 /*=================================
   Media Queries
 =================================== */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 
-
-
-
-  .img-profile {
-    flex: 1 1 365px;
-    max-width: 100%;
-    height: auto;
-  }
-
-  #Portfolio {
-  margin:0 0 60px 0;
-  padding: 60px 30px;
-  background-color: #FFFFFF;
-  }
-
-  #Contact * {
-    margin-bottom: 20px;
-  }
-  #Contact {
-    display: block;
-    max-width: 60%;
-    margin: 0 auto 60px auto;
-    text-align: center;
-  }
 }
